@@ -8,31 +8,7 @@ The pipeline follows the Medallion Architecture (Bronze → Silver → Gold) to 
 
 ---
 
-# 🏗️ Architecture
-
-```
-CSV File
-     │
-     ▼
-Azure Data Lake Storage Gen2
-     │
-     ▼
-Bronze Layer (Raw Data)
-     │
-     ▼
-Silver Layer (Cleaned Data)
-     │
-     ▼
-Gold Layer (Business Views)
-     │
-     ▼
-Analytics & Reporting
-```
-
----
-
-
-# 🔄 Project Workflow
+#  Project Workflow
 
 1. Upload healthcare dataset into Azure Data Lake Storage Gen2.
 2. Ingest raw CSV into Bronze Layer.
@@ -42,7 +18,7 @@ Analytics & Reporting
 
 ---
 
-# 📸 Project Screenshots
+#  Project Screenshots
 
 ## 1️⃣ Source Data Stored in Azure Data Lake Storage Gen2
 
