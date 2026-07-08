@@ -98,10 +98,19 @@ healthcare-data-engineering-project
 The Gold Layer produces business-ready analytical tables including:
 
 - Patient Count by Hospital
+  <img width="833" height="478" alt="image" src="https://github.com/user-attachments/assets/e93e76af-7274-44a6-af65-49bc66fde61a" />
+
 - Average Billing by Hospital
+<img width="910" height="511" alt="image" src="https://github.com/user-attachments/assets/59fb5485-a708-4bca-aa71-815c3799a3bf" />
+ 
 - Hospital Ranking
+<img width="852" height="525" alt="image" src="https://github.com/user-attachments/assets/493face0-9e7a-42bd-a5a4-1ff67a47874b" />
+
 - Admission Type Analysis
+<img width="735" height="412" alt="image" src="https://github.com/user-attachments/assets/baca1ed0-06f3-4645-933c-e85fbf677b8c" />
+
 - Medical Condition Analysis
+<img width="838" height="522" alt="image" src="https://github.com/user-attachments/assets/4cc7e346-4a29-47ae-991d-1235bcc326c8" />
 
 These tables can be directly connected to Power BI, Tableau, or Databricks SQL Dashboards.
 
@@ -125,7 +134,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 #  Technology Stack
 
 - Azure Data Lake Storage Gen2
-- Azure Databricks
+- External Databricks
 - PySpark
 - Delta Lake
 - Unity Catalog
