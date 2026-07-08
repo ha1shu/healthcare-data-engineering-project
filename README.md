@@ -54,7 +54,7 @@ This graph shows the dependency between the Silver Layer and multiple Gold Layer
 
 ## 5 Successful Pipeline Job Execution
 
-The Healthcare Data Pipeline successfully executes from Bronze ingestion to Silver and Gold transformations.
+The pipeline job executes the complete Medallion workflow by running the Bronze ingestion notebook first, followed by the Silver and Gold transformation pipeline, ensuring end-to-end automated data processing.
 <img width="1662" height="832" alt="Screenshot 2026-07-08 143403" src="https://github.com/user-attachments/assets/c16c2942-cd33-4ed8-b6e1-64d623bd189a" />
 
 
