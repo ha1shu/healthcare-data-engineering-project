@@ -60,24 +60,35 @@ The Healthcare Data Pipeline successfully executes from Bronze ingestion to Silv
 
 ---
 
-# Project Structure
-
-```
-Healthcare_Data_Pipeline
+healthcare-data-engineering-project
 │
-├── bronze
+├── README.md
+├── LICENSE
 │
-├── silver_transformations
-│   └── silver_transformation.py
+├── notebooks/
+│   ├── bronze_to_adls.ipynb
+│   └── test_business_data.ipynb
 │
-├── gold_transformations
-│   ├── gold_patient_count_by_hospital.py
-│   ├── gold_average_billing_by_hospital.py
-│   ├── gold_condition_analysis.py
-│   ├── gold_admission_type_analysis.py
-│   └── gold_hospital_ranking.py
+├── pipeline/
+│   ├── silver/
+│   │   └── silver_transformation.py
+│   │
+│   └── gold/
+│       ├── gold_patient_count_by_hospital.py
+│       ├── gold_average_billing_by_hospital.py
+│       ├── gold_condition_analysis.py
+│       ├── gold_admission_type_analysis.py
+│       └── gold_hospital_ranking.py
 │
-└── README.md
+├── screenshots/
+│   ├── azure-storage.png
+│   ├── bronze-layer.png
+│   ├── pipeline-folder.png
+│   ├── pipeline-graph.png
+│   └── pipeline-job.png
+│
+└── docs/
+    └── architecture.png
 ```
 
 ---
