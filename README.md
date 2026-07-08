@@ -1,6 +1,6 @@
 ## Healthcare Data Pipeline using Azure Databricks & Medallion Architecture
 
-###  Project Overview
+####  Project Overview
 
 This project demonstrates an end-to-end Healthcare Data Engineering Pipeline built using Azure Data Lake Storage Gen2, External Databricks, PySpark, Delta Lake, and Lakeflow Declarative Pipelines.
 
@@ -8,7 +8,7 @@ The pipeline follows the Medallion Architecture (Bronze → Silver → Gold) to 
 
 ---
 
-#  Project Workflow
+####  Project Workflow
 
 1. Upload healthcare dataset into Azure Data Lake Storage Gen2.
 2. Ingest raw CSV into Bronze Layer.
@@ -18,7 +18,7 @@ The pipeline follows the Medallion Architecture (Bronze → Silver → Gold) to 
 
 ---
 
-#  Project Screenshots
+###  Project Screenshots
 
 ## 1️ Source Data Stored in Azure Data Lake Storage Gen2
 
@@ -93,7 +93,7 @@ healthcare-data-engineering-project
 
 ---
 
-# Gold Layer Outputs
+### Gold Layer Outputs
 
 The Gold Layer produces business-ready analytical tables including:
 
@@ -116,7 +116,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-# Key Features
+#### Key Features
 
 - End-to-End Healthcare Data Pipeline
 - Medallion Architecture Implementation
@@ -131,7 +131,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-#  Technology Stack
+####  Technology Stack
 
 - Azure Data Lake Storage Gen2
 - External Databricks
@@ -143,7 +143,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-#  Future Enhancements
+####  Future Enhancements
 
 - Power BI Dashboard
 - Incremental Data Loading
@@ -153,7 +153,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Harshit Sharma**
 
