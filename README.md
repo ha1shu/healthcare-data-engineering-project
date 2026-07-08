@@ -20,7 +20,7 @@ The pipeline follows the Medallion Architecture (Bronze → Silver → Gold) to 
 
 #  Project Screenshots
 
-## 1️⃣ Source Data Stored in Azure Data Lake Storage Gen2
+## 1️ Source Data Stored in Azure Data Lake Storage Gen2
 
 The healthcare dataset is stored inside an Azure Storage Container before ingestion.
 
@@ -28,7 +28,7 @@ The healthcare dataset is stored inside an Azure Storage Container before ingest
 
 ---
 
-## 2️⃣ Bronze Layer
+## 2️ Bronze Layer
 
 The raw healthcare dataset is successfully loaded into the Bronze Layer without any transformations.
 
@@ -36,7 +36,7 @@ The raw healthcare dataset is successfully loaded into the Bronze Layer without 
 
 ---
 
-## 3️⃣ Pipeline Source Code Structure
+## 3️ Pipeline Source Code Structure
 
 The project is organized into separate Silver and Gold transformation modules inside the Databricks Pipeline.
 
@@ -44,7 +44,7 @@ The project is organized into separate Silver and Gold transformation modules in
 
 ---
 
-## 4️⃣ Pipeline Graph
+## 4️ Pipeline Graph
 
 This graph shows the dependency between the Silver Layer and multiple Gold Layer materialized views.
 
@@ -52,7 +52,7 @@ This graph shows the dependency between the Silver Layer and multiple Gold Layer
 
 ---
 
-## 5️⃣ Successful Pipeline Job Execution
+## 5 Successful Pipeline Job Execution
 
 The Healthcare Data Pipeline successfully executes from Bronze ingestion to Silver and Gold transformations.
 <img width="1662" height="832" alt="Screenshot 2026-07-08 143403" src="https://github.com/user-attachments/assets/c16c2942-cd33-4ed8-b6e1-64d623bd189a" />
@@ -60,7 +60,7 @@ The Healthcare Data Pipeline successfully executes from Bronze ingestion to Silv
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 Healthcare_Data_Pipeline
@@ -82,7 +82,7 @@ Healthcare_Data_Pipeline
 
 ---
 
-# 📊 Gold Layer Outputs
+# Gold Layer Outputs
 
 The Gold Layer produces business-ready analytical tables including:
 
@@ -96,7 +96,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-# ✅ Key Features
+# Key Features
 
 - End-to-End Healthcare Data Pipeline
 - Medallion Architecture Implementation
@@ -111,7 +111,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-# 🚀 Technology Stack
+#  Technology Stack
 
 - Azure Data Lake Storage Gen2
 - Azure Databricks
@@ -123,7 +123,7 @@ These tables can be directly connected to Power BI, Tableau, or Databricks SQL D
 
 ---
 
-# 📈 Future Enhancements
+#  Future Enhancements
 
 - Power BI Dashboard
 - Incremental Data Loading
