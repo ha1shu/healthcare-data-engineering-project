@@ -2,7 +2,7 @@
 
 ####  Project Overview
 
-This project was developed as part of the **Celebal Technologies CEI (Celebal Summer Internship) Program 2026**. It demonstrates an end-to-end Healthcare Data Engineering Pipeline built using ADLS gen2, External Databricks, PySpark, Delta Lake, and Lakeflow Declarative Pipelines.
+This project was developed as part of the **Celebal Technologies CEI (Celebal Excellence Internship) Program 2026**. It demonstrates an end-to-end Healthcare Data Engineering Pipeline built using ADLS gen2, External Databricks, PySpark, Delta Lake, and Lakeflow Declarative Pipelines.
 
 The solution follows the Medallion Architecture (Bronze → Silver → Gold) to transform raw healthcare data into clean, analytics-ready datasets. It automates data ingestion, data transformation, and business-level aggregations, providing a scalable and reliable data processing workflow aligned with modern Data Engineering best practices.
 
