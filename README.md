@@ -32,7 +32,8 @@ The healthcare dataset is stored inside an Azure Storage Container before ingest
 
 The raw healthcare dataset is successfully loaded into the Bronze Layer without any transformations.
 
-<img width="1091" height="562" alt="image" src="https://github.com/user-attachments/assets/73a80b05-e68f-4e9a-9a29-35a4e09cd91f" />
+<img width="1902" height="848" alt="Screenshot 2026-07-11 183059" src="https://github.com/user-attachments/assets/a81367b1-35a1-4f81-8747-e266d98b928e" />
+
 
 ---
 
