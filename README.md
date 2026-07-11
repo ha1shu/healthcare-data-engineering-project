@@ -34,6 +34,8 @@ The raw healthcare dataset is successfully loaded into the Bronze Layer without 
 
 <img width="1902" height="848" alt="Screenshot 2026-07-11 183059" src="https://github.com/user-attachments/assets/a81367b1-35a1-4f81-8747-e266d98b928e" />
 
+#### Code of bronze this:-
+<img width="1910" height="906" alt="image" src="https://github.com/user-attachments/assets/532c839c-085e-4a54-926e-3760510c3405" />
 
 ---
 
