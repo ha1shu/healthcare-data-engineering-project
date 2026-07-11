@@ -48,8 +48,7 @@ The project is organized into separate Silver and Gold transformation modules in
 ## 4️ Pipeline Graph
 
 This graph shows the dependency between the Silver Layer and multiple Gold Layer materialized views.
-
-<img width="1503" height="903" alt="Screenshot 2026-07-08 142704" src="https://github.com/user-attachments/assets/1898422c-87a7-447b-ace3-78bf07e4baca" />
+<img width="1896" height="887" alt="image" src="https://github.com/user-attachments/assets/79e60ec6-c4ea-43ae-ab56-860bf81fa043" />
 
 ---
 
