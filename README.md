@@ -61,6 +61,30 @@ The pipeline job executes the complete Medallion workflow by running the Bronze 
 <img width="1912" height="923" alt="image" src="https://github.com/user-attachments/assets/b16b9a98-7fd7-4be0-a334-ab501471a642" />
 
 
+
+### Gold Layer Outputs
+
+The Gold Layer produces business-ready analytical tables including:
+
+- Patient Count by Hospital
+ <img width="1917" height="892" alt="image" src="https://github.com/user-attachments/assets/de2211b1-3385-427a-bcbc-50fee30644fe" />
+
+- Average Billing by Hospital
+<img width="910" height="511" alt="image" src="https://github.com/user-attachments/assets/59fb5485-a708-4bca-aa71-815c3799a3bf" />
+ 
+- Hospital Ranking
+<img width="852" height="525" alt="image" src="https://github.com/user-attachments/assets/493face0-9e7a-42bd-a5a4-1ff67a47874b" />
+
+- Admission Type Analysis
+<img width="1916" height="811" alt="image" src="https://github.com/user-attachments/assets/934e41f2-85f6-4637-83aa-8c3590e11988" />
+
+- Medical Condition Analysis
+<img width="838" height="522" alt="image" src="https://github.com/user-attachments/assets/4cc7e346-4a29-47ae-991d-1235bcc326c8" />
+
+These tables can be directly connected to Power BI, Tableau, or Databricks SQL Dashboards.
+
+---
+
 ---
 ```
 healthcare-data-engineering-project
@@ -93,29 +117,6 @@ healthcare-data-engineering-project
 └── docs/
     └── architecture.png
 ```
-
----
-
-### Gold Layer Outputs
-
-The Gold Layer produces business-ready analytical tables including:
-
-- Patient Count by Hospital
- <img width="1917" height="892" alt="image" src="https://github.com/user-attachments/assets/de2211b1-3385-427a-bcbc-50fee30644fe" />
-
-- Average Billing by Hospital
-<img width="910" height="511" alt="image" src="https://github.com/user-attachments/assets/59fb5485-a708-4bca-aa71-815c3799a3bf" />
- 
-- Hospital Ranking
-<img width="852" height="525" alt="image" src="https://github.com/user-attachments/assets/493face0-9e7a-42bd-a5a4-1ff67a47874b" />
-
-- Admission Type Analysis
-<img width="1916" height="811" alt="image" src="https://github.com/user-attachments/assets/934e41f2-85f6-4637-83aa-8c3590e11988" />
-
-- Medical Condition Analysis
-<img width="838" height="522" alt="image" src="https://github.com/user-attachments/assets/4cc7e346-4a29-47ae-991d-1235bcc326c8" />
-
-These tables can be directly connected to Power BI, Tableau, or Databricks SQL Dashboards.
 
 ---
 
