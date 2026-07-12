@@ -29,8 +29,7 @@ The healthcare dataset is stored inside an Azure Storage Container before ingest
 ---
 
 ## 2️ Bronze Layer
-
-The raw healthcare dataset is successfully loaded into the Bronze Layer without any transformations.
+The raw healthcare dataset is loaded into the Bronze Layer from the source CSV file. Basic column name standardization is performed to maintain consistency and the data is stored as a Delta table without modifying the original records or applying any business transformations..
 
 <img width="1902" height="848" alt="Screenshot 2026-07-11 183059" src="https://github.com/user-attachments/assets/a81367b1-35a1-4f81-8747-e266d98b928e" />
 
